@@ -2,7 +2,7 @@ package main
 
 import (
 	"github.com/astaxie/beego"
-	_ "github.com/fabiosoliveira/webgo/routers"
+	_ "github.com/fabiosoliveira/webgo2/routers"
 	"os"
 	"strconv"
 	"log"

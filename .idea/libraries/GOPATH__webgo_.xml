@@ -2,7 +2,6 @@
   <library name="GOPATH &lt;webgo&gt;">
     <CLASSES>
       <root url="file://$PROJECT_DIR$/../../../testemyproject" />
-      <root url="file://$PROJECT_DIR$/../../../webgo" />
       <root url="file://$PROJECT_DIR$/../../../teste" />
       <root url="file://$PROJECT_DIR$/../../../gerar-template" />
       <root url="file://$PROJECT_DIR$/../.." />
@@ -11,7 +10,6 @@
     </CLASSES>
     <SOURCES>
       <root url="file://$PROJECT_DIR$/../../../testemyproject" />
-      <root url="file://$PROJECT_DIR$/../../../webgo" />
       <root url="file://$PROJECT_DIR$/../../../teste" />
       <root url="file://$PROJECT_DIR$/../../../gerar-template" />
       <root url="file://$PROJECT_DIR$/../.." />
