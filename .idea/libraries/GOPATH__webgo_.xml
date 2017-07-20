@@ -1,0 +1,23 @@
+<component name="libraryTable">
+  <library name="GOPATH &lt;webgo&gt;">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/../testemyproject" />
+      <root url="file://$PROJECT_DIR$/../teste" />
+      <root url="file://$PROJECT_DIR$/../gerar-template" />
+      <root url="file://$PROJECT_DIR$/../github.com" />
+      <root url="file://$PROJECT_DIR$/../golang.org" />
+      <root url="file://$PROJECT_DIR$/../sourcegraph.com" />
+    </CLASSES>
+    <SOURCES>
+      <root url="file://$PROJECT_DIR$/../testemyproject" />
+      <root url="file://$PROJECT_DIR$/../teste" />
+      <root url="file://$PROJECT_DIR$/../gerar-template" />
+      <root url="file://$PROJECT_DIR$/../github.com" />
+      <root url="file://$PROJECT_DIR$/../golang.org" />
+      <root url="file://$PROJECT_DIR$/../sourcegraph.com" />
+    </SOURCES>
+    <excluded>
+      <root url="file://$PROJECT_DIR$" />
+    </excluded>
+  </library>
+</component>
