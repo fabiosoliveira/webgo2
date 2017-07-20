@@ -1,1 +1,1 @@
-"web: webgo.exe"
+"web: webgo"
