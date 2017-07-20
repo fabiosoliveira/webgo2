@@ -2,7 +2,7 @@ package main
 
 import (
 	"github.com/astaxie/beego"
-	_ "webgo/routers"
+	_ "github.com/fabiosoliveira/webgo/routers"
 )
 
 func main() {

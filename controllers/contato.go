@@ -2,8 +2,8 @@ package controllers
 
 import (
 	"encoding/json"
-	"webgo/models"
-	_ "webgo/validation"
+	"github.com/fabiosoliveira/webgo/models"
+	_ "github.com/fabiosoliveira/webgo/validation"
 
 	"github.com/astaxie/beego"
 	"github.com/astaxie/beego/validation"

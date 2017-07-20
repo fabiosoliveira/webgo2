@@ -1,7 +1,7 @@
 package routers
 
 import (
-	"webgo/controllers"
+	"github.com/fabiosoliveira/webgo/controllers"
 
 	"github.com/astaxie/beego"
 )
