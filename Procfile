@@ -1,1 +1,1 @@
-web: webgo
+web: webgo2
