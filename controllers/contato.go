@@ -3,10 +3,12 @@ package controllers
 import (
 	"encoding/json"
 	"github.com/fabiosoliveira/webgo/models"
+	"github.com/astaxie/beego/validation"
+
 	_ "github.com/fabiosoliveira/webgo/validation"
 
 	"github.com/astaxie/beego"
-	"github.com/astaxie/beego/validation"
+
 	"strconv"
 )
 
