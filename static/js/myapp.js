@@ -1,8 +1,12 @@
 var app = angular.module('myApp', []);
 
 app.controller('myCtrl', function ($scope, $http) {
+    $scope.master = {};
 
-
+    $scope.reset = function () {
+        document.getElementById("myForm").reset();
+        $scope.contato = angular.copy($scope.master);
+    }
 
     $scope.showtabela = function () {
         $http.get("/contato")
@@ -26,12 +30,7 @@ app.controller('myCtrl', function ($scope, $http) {
         }).then(function mySuccess(response) {
             document.getElementById("alert").innerHTML = response.data;
             $scope.showtabela();
-            //document.getElementById("myForm").reset();
-
-            $scope.contato.id = 0;
-            $scope.contato.nome = "";
-            $scope.contato.telefone = "";
-            $scope.contato.email = "";
+            $scope.reset();
         }, function myError(response) {
             alert(response.statusText);
         });

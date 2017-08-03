@@ -18,7 +18,9 @@ func (c *Contato) Valid(v *validation.Validation) {
 		v.SetError("Nome.Alpha", "Deve ser caracteres alfabéticos válidos")
 	}
 
-	if m, _ := regexp.MatchString("\\([0-9]{2}\\)[2-9](([0-9]{3})|([0-9]{4}))-[0-9]{4}", c.Telefone); !m {
-		v.SetError("Telefone.Phone", "Deve ser número de telefone ou celular móvel válido")
+	if c.Telefone != "" {
+		if m, _ := regexp.MatchString("\\([0-9]{2}\\)[2-9](([0-9]{3})|([0-9]{4}))-[0-9]{4}", c.Telefone); !m {
+			v.SetError("Telefone.Phone", "Deve ser número de telefone ou celular móvel válido")
+		}
 	}
 }
